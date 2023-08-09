@@ -12,6 +12,40 @@ h1 {
   font-size: 36px;
 }
 
+h2 {
+  font-size: 20px;
+}
+
+img {
+  width: 60%;
+  margin: 0 auto;
+  min-width: 100px;
+  max-width: 500px;
+  display: block;
+}
+
+.center-text {
+  text-align: center;
+  display: block;
+  padding: 12px;
+}
+
+.button {
+  border: 1px solid black;
+  border-radius: 12px;
+  background-color: darkslategray;
+  color: whitesmoke;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: rgba(138, 36, 36, 0.753);
+  transition-duration: 0.4s;
+}
+
 a:hover {
   background-color: rgba(138, 36, 36, 0.753);
 }
