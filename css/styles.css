@@ -1,0 +1,17 @@
+* {
+  border: 1px solid black;
+  box-sizing: border-box;
+  font-family: Tahoma, sans-serif;
+  font-size: 16px;
+  color:rgb(70, 19, 19);
+  background-color: whitesmoke;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+}
+
+a:hover {
+  background-color: rgba(138, 36, 36, 0.753);
+}
