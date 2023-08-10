@@ -2,7 +2,6 @@ html {
   background-color: rgba(170, 218, 170, 0.712);
 }
 * {
-  border: 1px solid black;
   box-sizing: border-box;
   font-family: Tahoma, sans-serif;
   font-size: 16px;
@@ -19,12 +18,13 @@ h2 {
 }
 
 img {
-  width: 60%;
   margin: 0 auto;
   border-radius: 12px;
-  min-width: 100px;
+  width: 60%;
   max-width: 500px;
+  max-height: 500px;
   display: block;
+  object-fit: cover;
 }
 
 .index-list {
@@ -44,6 +44,26 @@ img {
   font-size: 18px;
 }
 
+.ingredient-list {
+  list-style: none
+}
+
+.ingredient-list li::before {
+  content: "⯎"; 
+  font-size: 12px;
+  display: inline-block; 
+  width: 2em;
+  margin-left: -2em
+}
+
+ol {
+  margin: 0 0 36px;
+}
+
+ol li {
+  padding-bottom: 6px;
+}
+
 .center-text {
   text-align: center;
   display: block;
@@ -54,7 +74,7 @@ img {
   border: 1px solid black;
   border-radius: 12px;
   background-color: darkslategray;
-  color: whitesmoke;
+  color: rgba(170, 218, 170, 0.712);
   padding: 12px;
   text-align: center;
   text-decoration: none;
